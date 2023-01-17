@@ -1,0 +1,15 @@
+﻿using FilmeAPI.Models;
+using System.ComponentModel.DataAnnotations;
+
+namespace FilmeAPI.Data.DTO_S.Cinema
+{
+    public class ReadCinemaDto
+    {
+        [Key]
+        [Required]
+        public int Id { get; set; }
+        [Required(ErrorMessage = "O campo de nome é obrigatório")]
+        public string Nome { get; set; }
+        public object Endereco { get; set; }
+    }
+}

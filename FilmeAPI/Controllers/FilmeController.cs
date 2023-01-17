@@ -21,7 +21,7 @@ namespace FilmeAPI.Controllers
         public FilmeController(FilmeContext context, IMapper mapper)
         {
             _context = context;
-            _mapper = mapper
+            _mapper = mapper;
         }
         
         [HttpPost]
