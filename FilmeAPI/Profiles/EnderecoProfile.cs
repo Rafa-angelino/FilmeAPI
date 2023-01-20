@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using FilmeAPI.Data.DTO_S.Endereco;
+using FilmeAPI.Data.Dtos.Endereco;
 using FilmeAPI.Models;
 
 namespace FilmeAPI.Profiles

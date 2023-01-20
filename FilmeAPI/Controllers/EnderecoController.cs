@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using FilmeAPI.Data;
-using FilmeAPI.Data.DTO_S.Endereco;
+using FilmeAPI.Data.Dtos.Endereco;
 using FilmeAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;

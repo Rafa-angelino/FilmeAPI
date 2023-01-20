@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FilmeAPI.Data;
+using FilmeAPI.Data.DTO_S;
 using FilmeAPI.Data.DTO_S.Cinema;
 using FilmeAPI.Models;
 using Microsoft.AspNetCore.Mvc;
